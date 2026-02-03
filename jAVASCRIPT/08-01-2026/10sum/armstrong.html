@@ -1,0 +1,20 @@
+<script>
+    let n=parseInt(prompt("enter the number"))
+    let sum=0
+    var num=n
+    while(n>0){
+    
+    let d=n%10
+ sum=sum+d*d*d
+    n=parseInt(n/10)
+    }
+    if(sum==num)
+    {
+        document.write("armstrong number")
+    }
+    else
+    {
+        document.write("not armstrong number")
+    }
+    
+    </script>
